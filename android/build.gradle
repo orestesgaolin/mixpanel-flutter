@@ -23,7 +23,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.mixpanel.mixpanel_flutter'
     compileSdkVersion 30
+
     buildToolsVersion '30.0.3'
 
     defaultConfig {
